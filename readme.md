@@ -49,10 +49,10 @@ PROGRESS_FILE = r"C:\Path\To\My_Project\progress\import_progress_v3.json"
   - Material Instancing: Identifies duplicate textures to prevent memory bloat, ensuring each unique texture is only loaded into VRAM once.
   - Collection Organization: Automatically sorts imported tiles into collections based on their filename for easy management.
 
-|Metric	| Native Blender GLTF |	Fast Earth Importer|
+|Metric	| Native Blender GLTF |	Ultrafast GLTF Importer|
 |----|----|----|
 |10,000 Tiles (LOD-0)	| ~7 Hours	| < 5 Minutes|
-|Speedup	| 1x |	84x faster|
+|Speed	| 1x |	84x faster|
 |Stability |	High risk of crash/hang	| Low memory overhead|
 
 ## Notes
