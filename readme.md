@@ -63,6 +63,6 @@ PROGRESS_FILE = r"C:\Users\...\project-name\progress\import_progress.json"
 - Cache Rebuild: If you change your textures or move the project, delete the .pkl file inside the cache folder to force the script to re-scan the geometry.
 - MSFS Specifics: This script is optimized for the output format of Earth 2 MSFS. While it may work for general GLTF files, it is tuned for the specific buffer arrangements found in Google Earth 3D tiles.
 
-- Feel free to clone this repo and improve it, or make a push request.
+- Feel free to clone this repo and improve it, or make a pull request.
 
 Disclaimer: this script was created with the assistance of Claude AI, it went through multiple iterations until it worked as I wished.
