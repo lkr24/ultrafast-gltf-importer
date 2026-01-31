@@ -1,5 +1,5 @@
 # Blender Fast Earth Importer (Earth 2 MSFS)
-An ultra-fast, hybrid GLTF importer for Blender designed specifically for massive-scale 3D map tile imports downloaded via **Earth 2 MSFS**. By bypassing Blender’s standard overhead-heavy GLTF module, this script reduces import times for 10,000+ tiles from 7 hours to under 5 minutes (a 98.81% decrease).
+An ultra-fast, hybrid GLTF importer for Blender designed specifically for massive-scale 3D map tile imports downloaded via **Earth 2 MSFS**. By bypassing Blender’s standard overhead-heavy GLTF module, this script reduces import times for 10,000+ tiles from 7 hours to under 5 minutes (a 98.81% decrease). See how to use E2MSFS here -> https://www.youtube.com/watch?v=eug3NGpmv-0
 
 ## Required Directory Structure
 For the script to function correctly, organize your project folder as shown below. You must manually create the cache and progress directories.
@@ -34,9 +34,10 @@ PROGRESS_FILE = r"C:\Path\To\My_Project\progress\import_progress_v3.json"
 ```
 
 3. Execution
-    - Ensure the 3D Viewport is in Material Preview or Rendered mode to see textures.
     - Press the Run Script (Play) button.
     - Check the System Console (Window > Toggle System Console) to view real-time progress.
+    - Go over to the 3D Viewport in Material Preview or Rendered mode to see textures.
+
 
 ## Features
   - Low-Level Parsing: Directly extracts vertex and index data from binary buffers, skipping heavy Python-to-Blender API calls.
