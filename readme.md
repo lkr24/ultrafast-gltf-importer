@@ -1,6 +1,9 @@
 # Blender Fast Earth Importer (Earth 2 MSFS)
 An ultra-fast, hybrid GLTF importer for Blender designed specifically for massive-scale 3D map tile imports downloaded via **Earth 2 MSFS**. By bypassing Blender’s standard overhead-heavy GLTF module, this script reduces import times for 10,000+ tiles from 7 hours to under 5 minutes (a 98.81% decrease). See how to use E2MSFS here -> https://www.youtube.com/watch?v=eug3NGpmv-0
 
+Google Earth Decoder: https://flightsim.to/file/39900/gogole-earth-decoder-update
+
+
 ## Required Directory Structure
 For the script to function correctly, organize your project folder as shown below. You must manually create the cache and progress directories.
 
