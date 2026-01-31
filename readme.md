@@ -29,11 +29,15 @@ For the script to function correctly, organize your project folder as shown belo
 2. Configuration
 - At the top of the script, update the absolute paths to match your local machine:
 ```python
-# Use 'r' before the quotes to handle backslashes correctly
-GLTF_FOLDER = r"C:\Path\To\My_Project\modelLib"
-TEXTURE_FOLDER = r"C:\Path\To\My_Project\modelLib\texture"
-CACHE_FILE = r"C:\Path\To\My_Project\cache\gltf_cache_v3.pkl"
-PROGRESS_FILE = r"C:\Path\To\My_Project\progress\import_progress_v3.json"
+# 1. PATH TO YOUR GLTF FILES
+GLTF_FOLDER = r"C:\Users\...\project-name\modelLib"
+
+# 2. PATH TO YOUR TEXTURES
+TEXTURE_FOLDER = r"C:\Users\...\project-name\modelLib\texture"
+
+# 3. CACHE LOCATIONS (Delete these files to force a rebuild!)
+CACHE_FILE = r"C:\Users\...\project-name\cache\gltf_cache.pkl"
+PROGRESS_FILE = r"C:\Users\...\project-name\progress\import_progress.json"
 ```
 
 3. Execution
